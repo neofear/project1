@@ -1,5 +1,5 @@
 pragma solidity ^0.4.16;
-contract EscrowMyEther  {
+contract EscrEther  {
 
     //Author: Jesse Winland
     //Date: 27 March 2022
@@ -51,7 +51,7 @@ contract EscrowMyEther  {
 
 
     //Run once the moment contract is created. Set contract creator
-    function EscrowMyEther() {
+    function EscrEther() {
         owner = msg.sender;
     }
 
